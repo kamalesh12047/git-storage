@@ -107,15 +107,34 @@
 
 .nav-country{
     display: flex;
-    height: ;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    width: 100x;
+    margin-left: 10px;
+    
+
+}
+
+.flah{
+    margin-left: 10px;
+    
+   
 }
 
 .flag{
-    width: 13px;
+    width: 70px;
     height: 20px;
-    margin: 2px;
+    margin-right: 2px;
+    
 }
 
-.lang{
-
+.en{
+    background: #000;
+    color: white;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 3000px;
 }
