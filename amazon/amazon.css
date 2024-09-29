@@ -1,31 +1,121 @@
-*{
-  border: border-box;
+*{                                                                     /**  * is the symbol for style every element if they are to be asssigned to heve simailar value **/   
+  border: border-box;                                                  /** optional **/
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 0px;
+  margin: 0px;                                                          /** it is used to remove unwanted inbuilt-margin **/
 }
 
+.border:hover{                                                          /** whenever you place ur cursoe it will display a **/
+    border:2px solid white;                                           /** border with bold white border **/
+}
 
 .nav-bar{
-    height:80px;
-    width: 100%;
+    height:70px;
+    width: 100%;                                                       /** it is used to completely occupy the remaining space **/                                     
     background-color: #131921;
     color: white;
+    display:flex;                                                      /** it is used to display the elements in a structured container **/    
+    align-items: center; /**  Y-axis **/                               /** It is used to align the elements in the center with respect to Y axis **/
 }
+/* box1 */
 
 .nav-logo{
-    height: 70px;
+    height: 60px;
     width: 200px;
     color: white;
+    height: 60px;
+
 }
 
 .logo{
-    background-image: url("Screenshot\ 2024-09-18\ 154011.png");
-    height: 70px;
-    width: 100%;
-    background-size: cover;
-    border: transparent;
+    background-image: url("amazon_logo.png");                          /** image is used in the  background **/                                                                                                                             
+    height: 60px;
+    width: 100%;                                                                                              
+    background-size: cover;                                            /** it is used to make the image fill the image **/                                   
+    border: transparent;                                               /** it is to make border transparent **/                  
 }
-.border:hover{
-    border:2px solid white;
+
+/* Box2 */
+
+.first_line{
+    color:#cccccc;
+    font-size: large;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+.second_line{
+    color:#ffffff;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 5px;
+    
+
+}
+
+.class_icon{
+    display: flex;                                                                                                 
+    align-items: center;                                                                                                               
+    margin-left: 4px;
+}
+
+.nav_address{
+    height: 60px;
+    width: 250px;
+}
+
+/* box 3 */
+
+.nav-search{
+    display: flex;                                                            
+    width: 650px;
+    height: 40px;
+    justify-content: space-evenly; /**  x-axis **/                     /** it is used to distrub the elements with equal space **/                                                    
+    border-radius: 4px;
+    background-color: #ff9900;
+    margin-left: 10px;
+    border: none;  
+    margin-right: 7px;                                                                                               
+
+}
+
+.Search-amazon{
+    border-top-left-radius: 4px;                                       /** it is used to curve the one side of the corner **/                                                            
+    border-bottom-left-radius: 4px;
+    width: 55px;
+    border:none;
+    text-align: center;                                                /** it is used to align the text in the center **/                                                           
+    background-color: #f3f3f3;
+   
+}
+
+.input{
+    width: 540px;
+    border: none;
+    font-size: large;
+  
+}
+
+.search-ion{
+    display: flex;
+    width:55px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    align-items: center;
+    justify-content: center;  /**  X-axis **/                          /** It is used to align the elements in the center with respect to X-axis **/
+}
+
+.nav-country{
+    display: flex;
+    height: ;
+}
+
+.flag{
+    width: 13px;
+    height: 20px;
+    margin: 2px;
+}
+
+.lang{
 
 }
