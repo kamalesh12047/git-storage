@@ -1,7 +1,8 @@
 *{                                                                     /**  * is the symbol for style every element if they are to be asssigned to heve simailar value **/   
   border: border-box;                                                  /** optional **/
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 0px;                                                          /** it is used to remove unwanted inbuilt-margin **/
+  margin: 0px;
+  color: white;                                                         /** it is used to remove unwanted inbuilt-margin **/
 }
 
 .border:hover{                                                          /** whenever you place ur cursoe it will display a **/
@@ -86,6 +87,7 @@
     border:none;
     text-align: center;                                                /** it is used to align the text in the center **/                                                           
     background-color: #f3f3f3;
+    color: #000;
    
 }
 
@@ -93,6 +95,7 @@
     width: 540px;
     border: none;
     font-size: large;
+    border-color: white;
   
 }
 
@@ -137,4 +140,67 @@
     align-items: center;
     font-size: larger;
     font-weight: 3000px;
+}
+.nav-sign{
+   height: 60px; 
+}
+
+.welcome{
+    font-size: small;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.account{
+    margin-left: 15px;    
+}
+
+.sign_in{
+    background: #000;
+    color: #ffffff;
+    border:none;
+    font-size: large;
+}
+
+.nav-orders{
+    height: 60px; 
+ }
+ 
+ .return{
+     font-size: small;
+     margin-left: 20px;
+     margin-top: 10px;
+ }
+ 
+ .orders{
+     margin-left: 15px;    
+ }
+ 
+ .log-on{
+     background: #000;
+     color: #ffffff;
+     border:none;
+     font-size: large;
+ }
+
+.nav-cart{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+.panel{
+    height:40px;
+    background: rgb(35, 47, 62);
+    width: 100% ;
+}
+
+.panel-all{
+    display: flex;
+    width: 50px;
+    height: 45px;
+    align-items: center;
+    margin-left: 10px;
 }
